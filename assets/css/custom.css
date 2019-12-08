@@ -5,9 +5,6 @@
 @font-face {
     font-family: 'Kalpurush';
     src: url('Kalpurush.ttf') format('truetype');
-/*    font-weight: normal;
-    font-style: normal;
-*/
 }
 
 /*
@@ -95,7 +92,7 @@ h1.title > span {
 /*Replacing font-family: "Open Sans", sans-serif;  for temporary*/
 .post-text {
     font-family: "Kalpurush"; 
-    font-size: 1.37em;
+    font-size: 1.2em;
 }
 
 .post-text > p {
