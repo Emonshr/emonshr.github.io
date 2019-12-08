@@ -71,6 +71,10 @@ h1.title > span {
     padding: 0 0 1em;
 }
 
+.card-content-mini-caption {
+    font-size: small;
+}
+
 .fa-heart:hover {
     color: red;
 }
