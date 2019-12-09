@@ -9,6 +9,9 @@ title: Well, Hello There!
         <small><a style="color:grey" href="{{ BASE_PATH }}{{ post.url }}#disqus_thread"></a></small>
         <br>
         <a class="nice-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <div class="post-author-name">
+        <br> {{ site.author.name }} </br>
+        </div>
         <p class="nice-text">{{ post.content | strip_html | truncatewords: 50 }} <a href="{{ post.url | relative_url }}">Read more!</a></p>
     </li>
     {% endfor %}

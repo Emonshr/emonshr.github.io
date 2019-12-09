@@ -101,6 +101,7 @@ h1.title > span {
 
 .post-text > p {
     margin-bottom: 1em;
+    white-space: pre-wrap;
 }
 
 /* sorry God. Just once */
@@ -128,6 +129,11 @@ a {
 /* Hotfix for Bulma striping headings of styling */
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
+}
+.post-author-name {
+    font-family: Kalpurush;
+    border-bottom: 2px solid black;
+    /*text-align:  right;*/
 }
 @media screen and (max-width: 768px) {
   .pagination {
