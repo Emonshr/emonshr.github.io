@@ -3,6 +3,15 @@
  */
 
 @font-face {
+    font-family: 'SolaimanLipi';
+    src: url('SolaimanLipi.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'BenSen';
+    src: url('BenSen.ttf') format('truetype');
+}
+
+@font-face {
     font-family: 'Kalpurush';
     src: url('Kalpurush.ttf') format('truetype');
 }
@@ -10,6 +19,16 @@
 @font-face {
     font-family: 'Charukola';
     src: url('Charukola.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'LalSabuj';
+    src: url('Lal-Sabuj-Normal.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'BenSenHandwriting';
+    src: url('BenSenHandwriting.ttf') format('truetype');
 }
 
 /*
@@ -46,9 +65,10 @@
 
 h1.title > span {
    /* font-family: "League Gothic", "Arial Narrow", Arial, sans-serif;*/
-    font-family: Charukola;
+    font-family: "LalSabuj";
     margin-bottom: 1.75rem;
-    font-size: 1.28em;
+    font-size: 1.26em;
+    font-weight: normal;
 }
 
 .subtitle {
@@ -63,15 +83,28 @@ h1.title > span {
 }
 
 .nice-title {
-    font-size: larger;
+    font-size: 2em;
     font-weight: 400;
-    font-family: Roboto, sans-serif;
+    /*font-family: Roboto, sans-serif;*/
+    font-family: "BenSenHandwriting";
+    
 }
 
+
+/*Will use it later*/
+.nice-title-link > a {
+    color: #0000CD;
+}
+
+.nice-eng-title {
+    font-family: "Kalpurush";
+}
+    
 /*replacing "Open Sans", sans-serif; for temporary*/
 .nice-text {
     font-family: "Kalpurush";
 }
+
 
 .card-content {
     padding: 0 0 1em;
@@ -91,7 +124,9 @@ h1.title > span {
 
 .post-title {
     font-size: x-large;
-    font-family: Roboto, sans-serif;
+    /*font-family: Roboto, sans-serif;*/
+    font-family: "SolaimanLipi";
+    font-weight: normal;
 }
 
 .post-meta {
@@ -126,7 +161,7 @@ html, body {
 }
 
 a {
-    color: #57A3E8;
+    color: #4682B4;
 }
 /* Hotfix for lists being misaligned */
 .tile.is-parent ol, ul {
