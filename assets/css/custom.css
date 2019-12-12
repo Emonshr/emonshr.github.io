@@ -7,6 +7,11 @@
     src: url('Kalpurush.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'Charukola';
+    src: url('Charukola.ttf') format('truetype');
+}
+
 /*
     Import League Gothic <3
 */
@@ -40,7 +45,8 @@
 }
 
 h1.title > span {
-    font-family: "League Gothic", "Arial Narrow", Arial, sans-serif;
+   /* font-family: "League Gothic", "Arial Narrow", Arial, sans-serif;*/
+    font-family: Charukola;
     margin-bottom: 1.75rem;
     font-size: 1.5em;
 }
