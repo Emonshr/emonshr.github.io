@@ -12,7 +12,8 @@ title: ব্লগ
         <div class="post-author-name">
         <br> {{ site.author.name }} </br>
         </div>
-        <p class="nice-text">{{ post.content | strip_html | truncatewords: 50 }} <a href="{{ post.url | relative_url }}">Read more!</a></p>
+        <p class="nice-text">{{ post.preview_text }} <a href="{{ post.url | relative_url }}">Read more!</a></p>
+        <!-- <p class="nice-text">{{ post.content | strip_html | truncatewords: 50 }} <a href="{{ post.url | relative_url }}">Read more!</a></p> -->
     </li>
     {% endfor %}
     {% include pagination.html %}
