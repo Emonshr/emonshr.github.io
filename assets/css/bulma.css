@@ -1403,6 +1403,8 @@ input[type="submit"].button {
 .content h2 {
   font-size: 1.75em;
   margin-bottom: 0.5714em;
+  /*Added font*/
+  font-family: 'Kalpurush';
 }
 
 .content h2:not(:first-child) {
