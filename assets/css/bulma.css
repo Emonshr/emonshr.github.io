@@ -2950,7 +2950,7 @@ input[type="submit"].button {
 }
 
 .card-content {
-  padding: 1.5rem;
+  /*padding: 1.5rem;*/
 }
 
 .card-footer {
@@ -2989,6 +2989,7 @@ input[type="submit"].button {
 
 .card {
   background-color: white;
+  background-image: url("/assets/images/fogs-on-green-mountain-1054222-1.jpg");
   box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
   color: #4a4a4a;
   max-width: 100%;
@@ -3925,10 +3926,11 @@ a.nav-item.is-tab.is-active {
 }
 
 .nav {
+    background-image: url("/assets/images/white-painted-wall-1939485-1.png");
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
-  background-color: white;
+  /*background-color: white;*/
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -6609,3 +6611,99 @@ label.panel-block:hover {
   padding: 3rem 1.5rem 6rem;
 }
 /*# sourceMappingURL=bulma.css.map */
+/*custom hero light zone started*/
+
+.hero.is-light-custom {
+   /*background-image: url("/assets/images/notebook-notepad-paper-pencil-574283-1.jpg");*/
+   background-image: url("/assets/images/image10.png");
+  background-position: center; 
+  /*background-color: whitesmoke;*/
+  /*color: #363636;*/
+}
+
+.hero.is-light-custom a,
+.hero.is-light strong {
+  color: inherit;
+}
+
+.hero.is-light-custom .title {
+  color: #363636;
+}
+
+.hero.is-light-custom .subtitle {
+  color: rgba(54, 54, 54, 0.9);
+}
+
+.hero.is-light-custom .subtitle a,
+.hero.is-light .subtitle strong {
+  color: #363636;
+}
+
+.hero.is-light-custom .nav {
+  box-shadow: 0 1px 0 rgba(54, 54, 54, 0.2);
+}
+
+@media screen and (max-width: 768px) {
+/*@media screen and (max-width: 830px) {*/
+  .hero.is-light-custom .nav-menu {
+    background-color: whitesmoke;
+  }
+}
+
+.hero.is-light-custom a.nav-item,
+.hero.is-light .nav-item a:not(.button) {
+  color: rgba(54, 54, 54, 0.7);
+}
+
+.hero.is-light-custom a.nav-item:hover, .hero.is-light a.nav-item.is-active,
+.hero.is-light-custom .nav-item a:not(.button):hover,
+.hero.is-light-custom .nav-item a:not(.button).is-active {
+  color: #363636;
+}
+
+.hero.is-light-custom .tabs a {
+  color: #363636;
+  opacity: 0.9;
+}
+
+.hero.is-light-custom .tabs a:hover {
+  opacity: 1;
+}
+
+.hero.is-light-custom .tabs li.is-active a {
+  opacity: 1;
+}
+
+.hero.is-light-custom .tabs.is-boxed a, .hero.is-light .tabs.is-toggle a {
+  color: #363636;
+}
+
+.hero.is-light-custom .tabs.is-boxed a:hover, .hero.is-light .tabs.is-toggle a:hover {
+  background-color: rgba(10, 10, 10, 0.1);
+}
+
+.hero.is-light-custom .tabs.is-boxed li.is-active a, .hero.is-light .tabs.is-boxed li.is-active a:hover, .hero.is-light .tabs.is-toggle li.is-active a, .hero.is-light .tabs.is-toggle li.is-active a:hover {
+  background-color: #363636;
+  border-color: #363636;
+  color: whitesmoke;
+}
+
+.hero.is-light-custom.is-bold {
+  background-image: -webkit-linear-gradient(309deg, #dfd8d8 0%, whitesmoke 71%, white 100%);
+  background-image: linear-gradient(141deg, #dfd8d8 0%, whitesmoke 71%, white 100%);
+}
+
+@media screen and (max-width: 768px) {
+  .hero.is-light-custom .nav-toggle span {
+    background-color: #363636;
+  }
+  .hero.is-light-custom .nav-toggle:hover {
+    background-color: rgba(10, 10, 10, 0.1);
+  }
+  .hero.is-light-custom .nav-toggle.is-active span {
+    background-color: #363636;
+  }
+  .hero.is-light-custom .nav-menu .nav-item {
+    border-top-color: rgba(54, 54, 54, 0.2);
+  }
+}

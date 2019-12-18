@@ -21,7 +21,7 @@ txtFile.onreadystatechange = function () {
             lines = txtFile.responseText.split("\n");
             randLine = lines[Math.floor((Math.random() * lines.length) + 1)];
             document.getElementById('quote').innerHTML = randLine ||
-                "Intelligence is the ability to adapt to change."; // fallback quote
+                "Things Fall Apart."; // fallback quote
         }
     }
 };
