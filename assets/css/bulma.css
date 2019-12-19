@@ -2989,7 +2989,7 @@ input[type="submit"].button {
 
 .card {
   background-color: white;
-  background-image: url("/assets/images/fogs-on-green-mountain-1054222-1.jpg");
+  background-image: url("/assets/images/fogs-on-green-mountain.jpg");
   box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
   color: #4a4a4a;
   max-width: 100%;
@@ -6614,8 +6614,7 @@ label.panel-block:hover {
 /*custom hero light zone started*/
 
 .hero.is-light-custom {
-   /*background-image: url("/assets/images/notebook-notepad-paper-pencil-574283-1.jpg");*/
-   background-image: url("/assets/images/image10.png");
+   background-image: url("/assets/images/notepad.jpg");
   background-position: center; 
   /*background-color: whitesmoke;*/
   /*color: #363636;*/

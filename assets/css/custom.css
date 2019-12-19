@@ -120,7 +120,7 @@ h1.title > span {
 }
 
 .footer {
-    background-image: url("/assets/images/white-painted-wall-1939485-1.png");
+    background-image: url("/assets/images/white-painted-wall.jpg");
     padding: 3rem 1.5rem 3rem;
 }
 
@@ -156,18 +156,18 @@ h1.title > span {
 .box {
     padding: 0.75rem;
     margin-bottom: 0.75rem;
-    background-image: url("/assets/images/fogs-on-green-mountain-1054222-1.jpg");
+    background-image: url("/assets/images/fogs-on-green-mountain.jpg");
 }
 
-.box-background-image {
+/*.box-background-image {
     background-image: url("/assets/images/fogs-on-green-mountain-1054222.jpg");
     opacity: 10;
-}
+}*/
 
 html, body {
     max-width: 100%;
     overflow-x: hidden;
-    background-image: url("/assets/images/brick.png");
+    background-image: url("/assets/images/brick.jpg");
  
 }
 
