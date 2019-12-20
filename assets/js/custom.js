@@ -21,7 +21,7 @@ txtFile.onreadystatechange = function () {
             lines = txtFile.responseText.split("\n");
             randLine = lines[Math.floor((Math.random() * lines.length) + 1)];
             document.getElementById('quote').innerHTML = randLine ||
-                "Things Fall Apart."; // fallback quote
+                "Ad infinitum."; // fallback quote
         }
     }
 };
