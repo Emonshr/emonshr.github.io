@@ -180,14 +180,6 @@ img {
   max-width: 100%;
 }
 
-img-avatar {
-  max-width: 100%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-
-}
-
 input[type="checkbox"],
 input[type="radio"] {
   vertical-align: baseline;
@@ -6622,12 +6614,18 @@ label.panel-block:hover {
 /*custom hero light zone started*/
 
 .hero.is-light-custom {
-   background-image: url("/assets/images/notepad.jpg");
+  background-image: url("/assets/images/notepad_big.jpg");
   background-position: center; 
   /*background-color: whitesmoke;*/
   /*color: #363636;*/
 }
 
+@media only screen and (max-width: 600px) {
+  .hero.is-light-custom {
+    background-image: url("/assets/images/notepad_small.jpg");
+  }
+}
+    
 .hero.is-light-custom a,
 .hero.is-light strong {
   color: inherit;
