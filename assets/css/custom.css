@@ -4,26 +4,30 @@
 
 @font-face {
     font-family: 'SolaimanLipi';
-    src: url('SolaimanLipi.ttf') format('truetype');
+    /*src: url('SolaimanLipi.ttf') format('truetype');*/
+    src: url('SolaimanLipi.woff2') format('woff2');
 }
-@font-face {
+/* @font-face {
     font-family: 'BenSen';
     src: url('BenSen.ttf') format('truetype');
-}
+    src: url('BenSen.woff2') format('woff2');
+} */
 
 @font-face {
     font-family: 'Kalpurush';
-    src: url('Kalpurush.ttf') format('truetype');
+    /*src: url('Kalpurush.ttf') format('truetype');*/
+    src: url('Kalpurush.woff2') format('woff2');
 }
 
-@font-face {
+/* @font-face {
     font-family: 'Charukola';
     src: url('Charukola.ttf') format('truetype');
-}
+} */
 
 @font-face {
     font-family: 'LalSabuj';
-    src: url('Lal-Sabuj-Normal.ttf') format('truetype');
+    /*src: url('Lal-Sabuj-Normal.ttf') format('truetype');*/
+    src: url('Lal-Sabuj-Normal.woff2') format('woff2');
 }
 
 @font-face {
