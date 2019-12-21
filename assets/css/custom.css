@@ -32,7 +32,8 @@
 
 @font-face {
     font-family: 'BenSenHandwriting';
-    src: url('BenSenHandwriting.ttf') format('truetype');
+    /*src: url('BenSenHandwriting.ttf') format('truetype');*/
+    src: url('BenSenHandwriting.woff2') format('woff2');
 }
 
 /*
