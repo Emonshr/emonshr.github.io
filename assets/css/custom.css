@@ -1,6 +1,12 @@
 /*
  * some bengali fonts
  */
+@font-face {
+    font-family: 'Nimbus Roman';
+    /*src: url('SolaimanLipi.ttf') format('truetype');*/
+    src: url('NimbusRomNo9L.woff2') format('woff2');
+}
+
 
 @font-face {
     font-family: 'SolaimanLipi';
@@ -83,7 +89,7 @@ h1.title > span {
 }
 
 .subtitle {
-    font-size: 0.80em;
+    font-size:  0.80em; /*0.80em;*/
     margin-top: -1.0rem;
 }
 
@@ -172,7 +178,8 @@ h1.title > span {
 .box {
     padding: 0.75rem;
     margin-bottom: 0.75rem;
-    background-image: url("/assets/images/fogs-on-green-mountain.jpg");
+    /*background-image: url("/assets/images/fogs-on-green-mountain.jpg");*/
+    background-image: linear-gradient(#d6eff2, #e8f6f7);
 }
 
 /*.box-background-image {
@@ -211,4 +218,6 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 0%;
   }
 }
+
+
 /* ~ jpasholk */

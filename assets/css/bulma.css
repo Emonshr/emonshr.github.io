@@ -2989,7 +2989,8 @@ input[type="submit"].button {
 
 .card {
   background-color: white;
-  background-image: url("/assets/images/fogs-on-green-mountain.jpg");
+  /*background-image: url("/assets/images/fogs-on-green-mountain.jpg");*/
+  background-image: linear-gradient(#d6eff2, #e8f6f7);
   box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
   color: #4a4a4a;
   max-width: 100%;
