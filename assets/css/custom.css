@@ -225,7 +225,8 @@ h1, h2, h3, h4, h5, h6 {
  height: 50px;	
  /*overflow: hidden;*/
  /*position: relative;*/
- white-space: nowrap; /*To terminate the text losing effect*/
+ /*white-space: nowrap;*/ /*To terminate the text losing effect*/
+ text-wrap: balance;
  font-size: 0.9em;
  font-family: LalSabuj;
  
