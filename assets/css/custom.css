@@ -1,13 +1,13 @@
-/*
- * some bengali fonts
- */
 @font-face {
     font-family: 'Nimbus Roman';
     /*src: url('SolaimanLipi.ttf') format('truetype');*/
     src: url('NimbusRomNo9L.woff2') format('woff2');
 }
 
+ /* some bengali fonts
+ */
 
+ /*
 @font-face {
     font-family: 'SolaimanLipi';
     /*src: url('SolaimanLipi.ttf') format('truetype');*/
@@ -41,6 +41,7 @@
     /*src: url('BenSenHandwriting.ttf') format('truetype');*/
     src: url('BenSenHandwriting.woff2') format('woff2');
 }
+*/
 
 /*
     Import League Gothic <3
@@ -57,7 +58,7 @@
     font-weight: normal;
     font-style: normal;
 }
-
+*/
 .main-container {
     max-width: 900px;
     margin: 0 auto;
@@ -256,4 +257,16 @@ h1, h2, h3, h4, h5, h6 {
   100% {
     transform: translate(-100%, 0);
   }
-}/* ~ jpasholk */
+}
+
+.new-background{
+    radial-gradient(black 3px, transparent 4px),
+    radial-gradient(black 3px, transparent 4px),
+    linear-gradient(#fff 4px, transparent 0),
+    linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px),
+    linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px),
+    #fff;
+    background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
+    background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+}
+/* ~ jpasholk */
