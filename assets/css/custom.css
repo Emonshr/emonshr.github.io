@@ -179,7 +179,9 @@ h1.title > span {
     padding: 0.75rem;
     margin-bottom: 0.75rem;
     /*background-image: url("/assets/images/fogs-on-green-mountain.jpg");*/
-    background-image: linear-gradient(#d6eff2, #e8f6f7);
+    /*background-image: linear-gradient(#d6eff2, #e8f6f7);*/
+    background-image: linear-gradient(#E3FDF5, #FFE6FA);
+    
 }
 
 /*.box-background-image {
